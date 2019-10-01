@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
+const routes = require('./app/routes/index');
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.get('/', function(req, res) {
 });
 
 // routes
+app.use('/api/v1', routes);
 
 // server
 const server = app.listen(8000, function() {
@@ -30,3 +32,4 @@ const server = app.listen(8000, function() {
 });
 
 // config mongo ./lib/mongo
+require('./lib/mongo');
