@@ -1,7 +1,18 @@
 # Trips Api test Mi aguila
+
+This is a api rest test for backend developer.
+
+## Clone
+
+Clone this repository 
+```bash
+[path/to/miaguila] $ git clone https://github.com/NATALIAGJ/miaguila.git
+```
+
+
 ## Installation
 
-This is a api rest test for backend developer. Instalation is done using the npm install comand: 
+Instalation is done using the npm install comand: 
 
 ```bash
 [path/to/miaguila] $ npm install
@@ -111,3 +122,6 @@ $ http://localhost:8000/api/v1/trips
 
 [Link](https://app.swaggerhub.com/apis/NATALIAGJ/Trips/1.0.0)
 
+### Work flow
+
+In this test I use git flow
