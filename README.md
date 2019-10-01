@@ -115,7 +115,7 @@ The method put send fields that i want to change in document, this send in json 
 This can be run in postman tool.
 
 ```bash
-$ http://localhost:8000/api/v1/trips
+$ http://localhost:8000/api/v1/trips/:_id
 ```
 
 ### Documentation in Swagger
