@@ -27,7 +27,7 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.19.3",
     "path": "^0.12.7",
-    "querymen": "^2.1.3",
+    "querymen": "^2.1.4",
     "uuid-base62": "^0.1.0"
   }
 }
